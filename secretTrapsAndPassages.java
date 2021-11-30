@@ -213,7 +213,7 @@ class secretTrapsAndPassages
 
         for (int i = 1; i < player_count + 1; i++)
         {
-            System.out.println("Enter player " + i + " name: ");
+            System.out.print("Enter player " + i + " name: ");
             new_player_name = scanner.nextLine();
             player new_player = createPlayer(new_player_name, 1, 0);
             players[i-1] = new_player;
